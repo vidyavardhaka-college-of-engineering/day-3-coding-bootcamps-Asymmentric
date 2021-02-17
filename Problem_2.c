@@ -14,9 +14,14 @@ int main()
     //Write your code here
     int a=0;
     int b=1;
-
+    printf("%d %d ",a,b);
     int i=2;
     while(i<n){
+      int c=b+a;
+      a=b;
+      b=c;
+      i=i+1;
+      printf("%d ",c);
       
     }
 
