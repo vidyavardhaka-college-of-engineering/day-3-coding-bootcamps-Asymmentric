@@ -15,7 +15,7 @@ int main()
     int a=0;
     int b=1;
     printf("%d %d ",a,b);
-    int i=2;
+   int i=2;
     while(i<n){
       int c=b+a;
       a=b;
