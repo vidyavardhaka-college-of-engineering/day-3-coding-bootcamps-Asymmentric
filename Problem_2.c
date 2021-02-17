@@ -12,7 +12,13 @@ int main()
     scanf("%d", &n);
 
     //Write your code here
-    
+    int a=0;
+    int b=1;
+
+    int i=2;
+    while(i<n){
+      
+    }
 
     return 0;
 }

@@ -7,7 +7,11 @@ int main() {
     scanf("%d", &number);
 
     // Write your code here
-    
+    if(number%2==0){
+      return 1;
+    }else{
+      return 0;
+    }
     
    
     return 0;
